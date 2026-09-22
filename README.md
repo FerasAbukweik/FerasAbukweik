@@ -36,13 +36,3 @@ I follow **Clean Architecture** and **SOLID principles**, structuring backends i
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
----
-
-### 📌 Featured Projects
-
-- **[Company Management System](https://github.com/FerasAbukweik/Company_System)**
-  Full-stack org-management platform with task delegation, approval workflows, and real-time SignalR chat. Built with a 3-tier ASP.NET Core backend and a zoneless Angular frontend.
-
-- **[Custom Builds](https://github.com/FerasAbukweik/Custom_Builds)**
-  Full-stack e-commerce platform with a live product customizer, cart/checkout, order tracking, and an admin dashboard. Includes real-time SignalR live chat and JWT-secured REST APIs.
