@@ -13,111 +13,56 @@
 
 ---
 
-## 👨‍💻 About Me
+## 👨‍💻 About
 
-I build modern, secure, and scalable web applications with **ASP.NET Core** and **Angular (Signals, Zoneless)**, following **Clean Architecture** and **SOLID** principles.
+I build secure, scalable web apps with **ASP.NET Core** and **Angular (Signals, Zoneless)**, using Clean Architecture and SOLID principles.
 
-- 🏆 JCPC winner and competitive programmer, with **400+** LeetCode / Codeforces problems solved
-- 💼 Currently a **Software Development Intern at Omicron Solutions**
-- 🎓 B.Sc. Computer Science, Al al-Bayt University (2023 – 2027), GPA 85%
-- 🌱 Always learning: real-time systems, caching, and DevOps
+- 💼 Software Development Intern at **Omicron Solutions**
+- 🏆 JCPC winner · 400+ LeetCode / Codeforces problems solved
+- ⚙️ I build production-ready apps with real-time features (SignalR), Redis caching, and Docker deployment
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages & Frameworks**
+**Languages, Frameworks & Tools**
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![.NET](https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=flat-square&logo=dotnet&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=flat-square&logo=reactivex&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Data, DevOps & Tools**
-
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-**Architecture & Engineering**
+**Libraries & Practices**
 
-| Area | Focus |
-|------|-------|
-| 🏛️ Architecture | Clean Architecture, 3-Layer, SOLID, REST API Design |
-| ⚡ Real-time & Background | SignalR, Background Services |
-| 🔐 Auth & Security | Identity Core, JWT, HttpOnly Cookies, Token Rotation |
-| 🧪 Testing & Logging | xUnit, Moq, Vitest, Serilog + Seq |
+![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![SignalR](https://img.shields.io/badge/SignalR-0078D4?style=flat-square&logo=dotnet&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=flat-square&logo=reactivex&logoColor=white)
+![xUnit](https://img.shields.io/badge/xUnit-5C2D91?style=flat-square&logo=dotnet&logoColor=white)
+![Serilog](https://img.shields.io/badge/Serilog_+_Seq-2C3E50?style=flat-square&logo=serverfault&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏢 Company Management System
-> A central platform for managers and employees to handle tasks, leave, payroll, and communication.
+**🏢 [Company Management System](YOUR_PROJECT_LINK)**
+Task delegation, leave approvals, automated payroll, and real-time chat for teams.
+`ASP.NET Core 10` `Angular 22` `SignalR` `Redis` `Docker`
 
-- Task delegation and leave/task approval through a **lazy-loaded org hierarchy**
-- **Automated monthly payroll** from attendance and hourly rates, with admin approval and safe-to-repeat background jobs
-- Real-time chat with **SignalR**; payslips and activity tracking for employees
-- Secure auth: Identity, HttpOnly/Secure **JWT cookies**, token rotation, roles, and lockout
-- **Redis** caching and invalidation, Scrutor decorators, `Result<T>` error handling, transaction filters
-- Docker Compose + Nginx, Serilog/Seq, Scalar docs, xUnit/Moq/SQLite/Vitest tests
-
-`ASP.NET Core 10` `EF Core` `SQL Server` `Angular 22` `Signals` `RxJS` `Tailwind` `Redis` `Docker`
-
-🔗 **[View Project](YOUR_PROJECT_LINK)**
+**🗺️ [AABU Reports](YOUR_PROJECT_LINK)**
+Campus maintenance platform: students pin issues on Google Maps and track fixes live.
+`.NET 10` `Angular 22` `SignalR` `Google Maps` `Docker`
 
 ---
 
-### 🗺️ AABU Reports
-> A campus maintenance platform where students report issues on a map and track their resolution.
+## 📫 Contact
 
-- Pin issues on **Google Maps**, upload photos to Cloudinary, and track/rate fixes
-- Admin dashboard for report triage, status updates, and building management
-- **SignalR** chat with typing indicators and live notifications
-- Identity, **MailKit** email verification, JWT cookies, and per-IP rate limiting
-- Caching with Angular signals and Redis; static assets served via Nginx
-- Docker Compose, Serilog/Seq, Scalar docs, xUnit/Moq/SQLite/Vitest tests
-- Arabic UI 🇯🇴
-
-`.NET 10` `EF Core` `SQL Server` `Angular 22` `Tailwind` `SignalR` `Redis` `Docker`
-
-🔗 **[View Project](YOUR_PROJECT_LINK)**
-
----
-
-## 💼 Experience & Training
-
-| Role | Where | When |
-|------|-------|------|
-| Software Development Intern | **Omicron Solutions** | 10/2026 – 01/2027 |
-| Full-Stack Development Bootcamp | **Somaya Academy** | 08/2025 – 12/2025 |
-| Software Development Intern | **Orange** | 06/2025 – 08/2025 |
-
----
-
-## 🎓 Education & Certifications
-
-- **B.Sc. Computer Science**, Al al-Bayt University (2023 – 2027), GPA 85%
-- Udemy: *ASP.NET Core 10 (.NET 10): True Ultimate Guide*
-- Udemy: *Angular: The Complete Guide*
-- Udemy: *Build an App with ASP.NET Core and Angular from Scratch*
-- Full-Stack Certificate (Somaya) · Software Development Internship Certificate (Orange)
-
----
-
-## 📫 Let's Connect
-
-I'm open to internships, junior roles, and collaboration on interesting projects.
-Reach me at **firas.abukweik@gmail.com**
-
-<p align="center"><i>Thanks for stopping by! ⭐</i></p>
+Open to internships and junior roles. Reach me at **firas.abukweik@gmail.com**
