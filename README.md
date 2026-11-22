@@ -53,13 +53,13 @@ I build secure, scalable web apps with **ASP.NET Core** and **Angular (Signals, 
 
 ## 🚀 Featured Projects
 
-**🏢 [Company Management System](YOUR_PROJECT_LINK)**
-Task delegation, leave approvals, automated payroll, and real-time chat for teams.
-`ASP.NET Core 10` `Angular 22` `SignalR` `Redis` `Docker`
+**💻 [StepByStepCoding](https://github.com/FerasAbukweik/StepByStepCoding)**  
+A coding classroom with personal workspaces, live code updates, timed exams, and instructor grading. Uses SignalR to send only code changes, Redis to reduce database reads, and secure code execution for C++, Python, and Java.  
+`ASP.NET Core 10` `Angular` `Clean Architecture` `CQRS` `SignalR` `Redis` `Monaco Editor` `Docker`
 
-**🗺️ [AABU Reports](YOUR_PROJECT_LINK)**
-Campus maintenance platform: students pin issues on Google Maps and track fixes live.
-`.NET 10` `Angular 22` `SignalR` `Google Maps` `Docker`
+**🏢 [Company Management System](https://github.com/FerasAbukweik/Company_System)**  
+A team management app with task delegation, leave approvals, automated payroll, and live chat. Uses 3-Layer Architecture for easier maintenance, Redis caching for faster reads, and JWT with HttpOnly cookies to protect accounts.  
+`ASP.NET Core 10` `Angular` `3-Layer Architecture` `SignalR` `Redis` `Docker`
 
 ---
 
